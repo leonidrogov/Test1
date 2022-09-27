@@ -1,4 +1,4 @@
-m=float(input())
-h=float(input())
+m=float(input("Введите массу тела в кг: "))
+h=float(input("Введите рост в метрах: "))
 
-print(m/(h*h))
+print("Индекс массы тела =", m/(h*h))
